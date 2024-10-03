@@ -1,13 +1,28 @@
 html {
   font-size: 15px;
-  font-family: Ubuntu Mono;
+  font-family: JetBrains Mono;
 }
-
 h1 {
-
+  font-size: 50px;
+  text-align: center;
 }
 
+p,
+li {
+  font-size: 16;
+  line-height: 2;
+  letter-spacing: 1px;
+}
 
 a:hover {
   color: aqua;
+}
+
+#title_airpods {
+  font-size: 18px;
+}
+
+#title_instructions {
+  font-size: 17px;
+  font-weight: bold;
 }
