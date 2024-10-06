@@ -5,19 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles/style.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
     <title>smartpods</title>
 </head>
 
 <body>
     <h1>AirPods 4</h1>
 
-    <img src="images/photo.jpg" alt="airpods">
+    <div id="photo">
+        <img id="airpods_photo" src="images/photo.jpg" alt="airpods">
+    </div>
 
-    <p id="title_airpods">Беспроводные наушники AirPods 4-го поколения с шумоподавлением (2024)</p>
+    <p>
+        Беспроводные наушники AirPods 4-го поколения с шумоподавлением (2024)
+    </p>
 
-    <p id="title_instructions">Инструкция по подключению :</p>
+    <p id="ins">Инструкция по подключению :</p>
 
     <ol>
         <li>
@@ -33,6 +35,7 @@
         <li>
             <b>Аудионастройки универсального доступа</b>
         </li>
+
         <div>
             <ul>
                 <li>Адаптация наушников</li>
@@ -50,14 +53,26 @@
                 <li>Поставить функцию "Поздняя ночь"</li>
             </ul>
         </div>
+
         <br>
-        <a href="https://my-apple-store.ru/airpods/airpods-4/airpods-4-active-noise-cancellation/">Купить</a>
-        <br>
-        <br>
-        <br>
+
+        <a id="buy_btn" href="https://my-apple-store.ru/airpods/airpods-4/airpods-4-active-noise-cancellation/">
+            Купить
+        </a>
+
+
+        <div>
+            <button id="click_button">Click</button>
+            <p id="click_counter">0</p>
+            <button id="reset_button">Reset</button>
+        </div>
+
     </ol>
+    </div>
 
-
+    <button id="change_user_btn">Change User</button>
 </body>
+
+<script src="scripts/main.js"></script>
 
 </html>

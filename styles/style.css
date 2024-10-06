@@ -2,27 +2,39 @@ html {
   font-size: 15px;
   font-family: JetBrains Mono;
 }
+
 h1 {
   font-size: 50px;
   text-align: center;
 }
 
-p,
-li {
-  font-size: 16;
-  line-height: 2;
-  letter-spacing: 1px;
+#photo {
+  display: flex;
+  justify-content: center;
 }
 
-a:hover {
-  color: aqua;
+#photo img {
+  width: 500px;
+  height: 300px;
+  align-items: center;
+  margin-bottom: 100px;
 }
 
-#title_airpods {
-  font-size: 18px;
+.photo_description {
+  display: flex;
+  justify-content: center;
 }
 
-#title_instructions {
-  font-size: 17px;
-  font-weight: bold;
+.buy_btn_class {
+  text-align: center;
+}
+
+#buy_btn {
+  display: inline-block; /* Позволяет использовать margin */
+  padding: 10px 20px; /* Отступы внутри кнопки */
+  text-align: center; /* Выравнивание текста по центру */
+  background-color: #4caf50; /* Цвет фона кнопки */
+  color: white; /* Цвет текста */
+  text-decoration: none; /* Убирает подчеркивание */
+  border-radius: 5px; /* Скругление углов */
 }
